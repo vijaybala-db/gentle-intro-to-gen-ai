@@ -43,7 +43,16 @@
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Step 1 - Set up Databricks Secrets with API keys
+# MAGIC #### Step 1 - Set up Databricks Secrets with API keys to OpenAI and MosaicML
+# MAGIC
+# MAGIC Launch a web terminal
+# MAGIC
+# MAGIC <img src="./media/launch-web-terminal.png" width="400px" />
+# MAGIC
+# MAGIC ```
+# MAGIC # Install the Databricks CLI
+# MAGIC curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
+# MAGIC ```
 
 # COMMAND ----------
 
@@ -75,14 +84,7 @@ set_gateway_uri(gateway_uri='databricks')
 # COMMAND ----------
 
 # MAGIC %md
-# MAGIC #### Step 3 - Set up Databricks Secrets with API keys to OpenAI, MosaicML, etc.
 # MAGIC
-# MAGIC Note: before you run the following code, please use the Databricks CLI to create a secret scope and secret keys for each LLM API you wish to access. For example, your CLI commands might be as follows:
-# MAGIC
-# MAGIC ```
-# MAGIC # Install the Databricks CLI
-# MAGIC curl -fsSL https://raw.githubusercontent.com/databricks/setup-cli/main/install.sh | sh
-# MAGIC ```
 
 # COMMAND ----------
 
